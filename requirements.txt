@@ -1,0 +1,6 @@
+# XMPP 新闻机器人依赖
+slixmpp>=1.8.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0      # HTML 解析加速（可选，fallback 到 html.parser）
+openai>=1.30.0   # OpenRouter 使用 OpenAI 兼容接口
